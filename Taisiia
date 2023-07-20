@@ -1,0 +1,4 @@
+import random
+
+facts = ["I can can ride scatebord, scooter and rollers, but can't ride bike", "I have a cat, who is 10 years old", "I am Python programmer"]
+print(random.choice(facts))
