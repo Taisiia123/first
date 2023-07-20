@@ -1,0 +1,23 @@
+meme_dict = {
+            "КРИНЖ": "Что-то очень странное или стыдное",
+            "ЛОЛ": "Что-то очень смешное",
+            "RN": "Means 'Right now'",
+            "BTW": "Means 'By the way'",
+            "IDK": "Means 'I don't know'",
+            "РОФЛ": "шутка"
+            }
+            
+print("Hi!")         
+print("It's your 'Программа - объяснялка' <3")
+print("If you don't understand modern words, I will help you!")
+
+for i in range(5):
+    word = input("Введите непонятное слово (большими буквами!): ")
+    
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        print("Soryy, this word is not here.")
+        
+        
+        
