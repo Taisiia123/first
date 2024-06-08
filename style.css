@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:wght@100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:wght@100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+*{
+    margin:0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+h1{
+    font-family: "Comfortaa", sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-right:45px;
+}
+header{
+    display: flex;
+    background-color: #f7d81d;
+    border-radius: 100px;
+    justify-content: space-between;
+    margin:15px 30px;
+    padding:15px 70px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.header__div-offer{
+    font-size: 18px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 900;
+}
+.header__div-desc{
+    font-size: 12px;
+}
+main{
+    height: 87vh;
+    background-image: url('images/main.svg');
+    background-repeat: no-repeat;
+    margin: 0px 30px;
+    background-size: cover;
+}
+section{
+    font-family: "Comfortaa", sans-serif;
+    margin: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section p{
+    font-family: "Inter", sans-serif;
+}
+section h2{
+    font-size: 30px;
+}
+.section_div{
+        display: flex;
+}
+.section_div p{
+    display: flex;
+    margin-left: -180px;
+    margin-top: 32px;
+}
+.section_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    position: relative;
+}
+.arrow{
+    position:absolute;
+    top: 40%;
+}
+.left{
+    left: -30px;
+}
+.right{
+    transform: rotate(180deg);
+    right:-30px;
+}
+.section-two{
+    display: flex;
+    margin: 30px;
+    background-color: #F6FF92;
+    border-radius: 30px;
+    padding:40px;
+}
+.section-two h2{
+    font-family: "Comfortaa", sans-serif;
+}
+.section-two a{
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    background-color: #F7D81D;
+    border-radius: 100px;
+    padding:20px 30px;
+    font-size: 25px;
+}
+.section-text{
+    display: flex;
+    justify-content: space-between;
+}
+.section-text{
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 18px;
+    width: 70%;
+}
+.section-two img{
+    margin-right: 40px;
+}
+.number{
+    color:#F76897;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.number h2{
+    font-size: 100px;
+}
+.number p{
+    font-size: 24px;
+    font-family: "Comfortaa", sans-serif;
+}
